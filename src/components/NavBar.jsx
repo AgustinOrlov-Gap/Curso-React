@@ -1,4 +1,5 @@
 import CartWidget from './CartWidget '
+import { useCart } from './CartContent/CartContext';
 import React, { useState } from 'react';
 import {
     ChakraProvider,
@@ -22,7 +23,10 @@ import {
 import Brand from './Brand';
 
 
+
 const NavBar = () => {
+  const { cart } = useCart(); // Obtén el estado del carrito del contexto
+const cartItemCount = cart.length; // Puedes ajustar esto según la estructura de tu estado del carrito
     const { colorMode, toggleColorMode } = useColorMode();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -50,7 +54,7 @@ const NavBar = () => {
             display={{ base: 'none', md: 'flex' }}
             align="center"
           >
-            <Link mr={4} href="#">
+            <Link mr={4} href="/">
               Inicio
             </Link>
             <Link mr={4} href="#">
@@ -69,10 +73,7 @@ const NavBar = () => {
             onClick={toggleColorMode}
             ml={2}
           />
-        <CartWidget
-            handleDecrement
-            handleIncrement
-        />
+        <CartWidget cartItemCount={cartItemCount}/>
         </Flex>
        
       </Container>

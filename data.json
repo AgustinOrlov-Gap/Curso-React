@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Procesador gamer AMD Ryzen 7 5700X Turbo",
+      "description": "Procesador gamer AMD Ryzen 7 5700X 100-100000926WOF de 8 núcleos y 4.6GHz de frecuencia sin gráficos integrada",
+      "stock": 13,
+      "price": 450,
+      "images": ["https://http2.mlstatic.com/D_NQ_NP_900889-MLA27827967461_072018-O.webp"]
+    },
+    {
+      "id": "2",
+      "name": "Memoria RAM Vengeance RGB Pro gamer",
+      "description": "Memoria RAM Vengeance RGB Pro gamer color negro 16GB 2 Corsair CMW16GX4M2D3600C18",
+      "stock": 2,
+      "price": 88,
+      "images": ["https://http2.mlstatic.com/D_NQ_NP_891059-MLA48196422763_112021-O.webp"]
+    },
+    {
+      "id": "3",
+      "name": "Tarjeta Madre Gigabyte A620m Gaming",
+      "description": "Tarjeta Madre Gigabyte A620m Gaming X Amd Am5 Ddr5 Micro Atx Color Negro",
+      "stock": 2,
+      "price": 136,
+      "images": ["https://http2.mlstatic.com/D_NQ_NP_627984-MLU70841260148_082023-O.webp"]
+    },
+    {
+      "id": "4",
+      "name": "Placa de video GeForce RTX 4090",
+      "description": "Placa de video Nvidia MSI Gaming Trio GeForce RTX 40 Series RTX 4090 GeForce RTX 4090 GAMING TRIO 24G 24GB",
+      "stock": 2,
+      "price": 3000,
+      "images": ["https://http2.mlstatic.com/D_NQ_NP_689535-MLA54963921948_042023-O.webp"]
+    },
+    {
+      "id": "5",
+      "name": "Gabinete Gamer Xigmatek",
+      "description": "Gabinete Gamer Xigmatek Gaming X 6 Fanes Argb Controladora",
+      "stock": 2,
+      "price": 79,
+      "images": ["https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/EN48397_800.jpg"]
+    },
+    {
+      "id": "6",
+      "name": "Mouse Gamer G502 Lightspeed",
+      "description": "Mouse Gamer G502 Lightspeed Original Inalámbrico Logitech G Color Negro",
+      "stock": 2,
+      "price": 104,
+      "images": ["https://http2.mlstatic.com/D_NQ_NP_789560-MLA31720849911_082019-O.webp"]
+    }
+  ]
+}
